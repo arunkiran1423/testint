@@ -103,7 +103,7 @@ class DocumentsFieldSet extends React.Component {
                           onClick={() =>
                             this.handleRemoveRow(this.state.rows[idx].id)
                           }
-                          className="pull-right btn btn-default"
+                          className="pullbtn"
                         >
                           Delete Row
                         </button>
